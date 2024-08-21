@@ -50,3 +50,6 @@ while True:
     elif 'open google' in query:
         speak("opening google")
         webbrowser.open("google.com")
+    elif 'open github' in query:
+        speak("opening github")
+        webbrowser.open("github.com")
