@@ -33,7 +33,7 @@ def take_command():
 if __name__ == '__main__':
     speak("Amigo assistance activated ")
     speak("How can i help you")
-    
+
 while True:
     query = take_command().lower()
     if 'wikipedia' in query:
@@ -42,3 +42,6 @@ while True:
         results = wikipedia.summary(query, sentences=2)
         speak("According to wikipedia")
         speak(results)
+    elif 'are you' in query:
+        speak("I am amigo developed by Jaspreet Singh")
+    
