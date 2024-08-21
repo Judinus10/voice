@@ -56,3 +56,6 @@ while True:
     elif 'open stackoverflow' in query:
         speak("opening stackoverflow")
         webbrowser.open("stackoverflow.com")
+    elif 'open spotify' in query:
+        speak("opening spotify")
+        webbrowser.open("spotify.com")
