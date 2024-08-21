@@ -47,3 +47,30 @@ while True:
     elif 'open youtube' in query:
         speak("opening youtube")
         webbrowser.open("youtube.com")
+    elif 'open google' in query:
+        speak("opening google")
+        webbrowser.open("google.com")
+    elif 'open github' in query:
+        speak("opening github")
+        webbrowser.open("github.com")
+    elif 'open stackoverflow' in query:
+        speak("opening stackoverflow")
+        webbrowser.open("stackoverflow.com")
+    elif 'open spotify' in query:
+        speak("opening spotify")
+        webbrowser.open("spotify.com")
+    elif 'open whatsapp' in query:
+        speak("opening whatsapp")
+        loc = "C:\\Users\\jaspr\\AppData\\Local\\WhatsApp\\WhatsApp.exe"
+        os.startfile(loc)
+    elif 'local disk d' in query:
+        speak("opening local disk D")
+        webbrowser.open("D://")
+    elif 'local disk c' in query:
+        speak("opening local disk C")
+        webbrowser.open("C://")
+    elif 'local disk e' in query:
+        speak("opening local disk E")
+        webbrowser.open("E://")
+    elif 'sleep' in query:
+        exit(0)
