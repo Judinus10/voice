@@ -72,3 +72,5 @@ while True:
     elif 'local disk e' in query:
         speak("opening local disk E")
         webbrowser.open("E://")
+    elif 'sleep' in query:
+        exit(0)
