@@ -63,3 +63,12 @@ while True:
         speak("opening whatsapp")
         loc = "C:\\Users\\jaspr\\AppData\\Local\\WhatsApp\\WhatsApp.exe"
         os.startfile(loc)
+    elif 'local disk d' in query:
+        speak("opening local disk D")
+        webbrowser.open("D://")
+    elif 'local disk c' in query:
+        speak("opening local disk C")
+        webbrowser.open("C://")
+    elif 'local disk e' in query:
+        speak("opening local disk E")
+        webbrowser.open("E://")
