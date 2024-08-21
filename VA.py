@@ -29,3 +29,7 @@ def take_command():
         speak("I didnt understand")
         return "None"
     return query
+
+if __name__ == '__main__':
+    speak("Amigo assistance activated ")
+    speak("How can i help you")
