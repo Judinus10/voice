@@ -47,3 +47,6 @@ while True:
     elif 'open youtube' in query:
         speak("opening youtube")
         webbrowser.open("youtube.com")
+    elif 'open google' in query:
+        speak("opening google")
+        webbrowser.open("google.com")
